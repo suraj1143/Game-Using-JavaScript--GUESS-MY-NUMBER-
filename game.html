@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./game.css" rel="stylesheet"></link>
+    <button class="again">PLAY AGAIN !!</button>
+    <P class="rule">(between 1 to 20)</P>
+</head>
+<!-- body starts from here -->
+<body>
+    <h1 class="order">Guess My Number</h1>
+    <hr class="line">
+    <div id="squire">
+        <p class="qnmark">❓</p>
+    </div>
+    <div class="three">
+        <div class="first">
+            <h2>⚠ Please Gusess from 1 to 20 only</h2>
+            <input type="number" class="guess"><br><br>
+            <button class="check">CHECK</button>
+        </div>
+        <div class="second">
+        <P class="result">🤔 Start Guessing...</P>
+        <h5 class="score">❗ Score: <span class="scoreResult"></span></h5>
+        <h5 class="highScore">💠 Highscore: <span class="highscoreResult">0</span></h5>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
